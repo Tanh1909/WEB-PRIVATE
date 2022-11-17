@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+input{
+    border: none;
+}
+a{
+    text-decoration: none;
+    color:#A3A3A3 ;
+}
+a:hover{
+    color: #62d7df;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #62d7df, #dd42e8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 40%;
+    height: 80%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_child{
+    width: 80%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 40%;
+}
+.inputicon{
+    display: flex;
+    align-items: center;
+}
+input{
+    height: 50px;
+    width: 100%;
+}
+.forgot{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+button{
+    border: none;
+    background: linear-gradient(90deg, #62d7df, #dd42e8);
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 30px;
+    margin: 30px 0;
+}
+.or{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+button:hover{
+    background-color: red;
+    transform: scale(1.1);
+    transition: 0.45s;
+}
+.container_icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    margin: 10px;
+}
